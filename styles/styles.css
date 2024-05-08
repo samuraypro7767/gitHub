@@ -204,3 +204,27 @@ main > .containerFatherCard > .card > h2{
     border: 2px solid #154d64;
     
 }
+footer{
+    background-color: #145d76;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer > section {
+    width: 20%;
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 2px solid #058fb5;
+    padding-top: 15px;
+    overflow: hidden;
+    
+}
+.networks{
+    height:1.2cm;
+    
+
+}
