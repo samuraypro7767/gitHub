@@ -71,6 +71,17 @@ header{
     
 }
 
+
+
+
+.list_directionLink li:hover{
+    background: linear-gradient(109.6deg, #068eb4 , #04b3d6 , #65e5fb ,#65e5fb 101%); 
+    width: 9vw;
+    transition: 0.2s ease-in-out;
+    
+  
+}
+
 .navigation > .list_directionLink a{
     text-decoration: none;
     color: white;
