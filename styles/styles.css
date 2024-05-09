@@ -225,8 +225,7 @@ footer{
 }
 footer > section {
     width: 20%;
-    height: 7
-    0%;
+    height: 70%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -236,7 +235,7 @@ footer > section {
     
 }
 .networks{
-    height:1.2cm;
+    height:1cm;
     
 
 }
