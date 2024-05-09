@@ -76,8 +76,8 @@ header{
 
 .list_directionLink li:hover{
     background: linear-gradient(109.6deg, #068eb4 , #04b3d6 , #65e5fb ,#65e5fb 101%); 
-    width: 9vw;
     transition: 0.2s ease-in-out;
+    cursor: pointer;
     
   
 }
@@ -138,6 +138,9 @@ main > .container_diary > #miSelect{
    padding: 5px;
    font-weight: 500;
    
+}
+main > .container_diary > #miSelect:hover{
+    cursor: pointer;
 }
 main > .container_diary > label{
  width: 15%;
