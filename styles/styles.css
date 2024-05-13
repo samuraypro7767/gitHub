@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    width:100%;
+    min-height: 100vh;
+    background-color:#ecfeff;
+}
+
+body > #line{
+    width:50%;
+  
+}
+
+
+header{
+    width: 100%;
+    height: 8rem;
+    background-color: #0c7292;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: row;
+}
+
+
+.navigation{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+
+}
+.navigation > h1{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-shadow: 0 0 10px #000000;
+    color: white;
+
+   
+}
+.navigation > .list_directionLink{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.navigation > .list_directionLink li{
+    width: 10rem;
+    height: 40%;
+    justify-content: center;
+    align-items: center; 
+    background-color: #068eb4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #154d64;
+    white-space: nowrap;
+    display: flex;  
+
+    
+}
+
+
+
+
+.list_directionLink li:hover{
+    background: linear-gradient(109.6deg, #068eb4 , #04b3d6 , #65e5fb ,#65e5fb 101%); 
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    
+  
+}
+
+.navigation > .list_directionLink a{
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+
+}
+@media (max-width: 1300px) {
+    .list_directionLink a{
+        flex-basis: 0; 
+        overflow: hidden; 
+        margin-left: 5px;
+         white-space: nowrap;
+    }
+    .navigation .list_directionLink li{
+        
+            width: 7rem;
+            height: 40%;
+            justify-content: center;
+            align-items: center; 
+            background-color: #068eb4;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #154d64;
+            white-space: nowrap;
+            display: flex;  
+        
+    }
+}
+
+.container-logo{
+    width: 20%;
+    height: 100%;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.container-logo > #logo{
+    height: 90%;
+    border-radius: 50%;
+    box-shadow: 0 0 20px white;
+    border: 1px solid #0a4b9e;
+    background-image: center;
+    background-size: cover;
+}
+main{
+    height: 76.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex:1;
+}
+
+main  .container_diary{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+}
+main > .container_diary > #miSelect{
+   border-radius: 15px;
+   height: 2rem;
+   border: 1px solid #0a4b9e;
+   padding: 5px;
+   font-weight: 500;
+   
+}
+main > .container_diary > #miSelect:hover{
+    cursor: pointer;
+}
+main > .container_diary > label{
+ width: 25%;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ text-wrap: nowrap;
+
+   
+}
+main > .container_diary > label > p{
+ font-weight: 900;
+   
+}
+main > .container_diary > label > input{
+ border-radius: 15px;
+ padding: 5px;
+ text-align: center;
+ border:1px solid #0a4b9e;
+ font-weight: 400;
+   
+}
+
+main > .container_diary > .line{
+    width: 95%;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #0a4b9e;
+    text-shadow: 0 0 2px #0c7292;
+    padding-top: 20px;
+    
+
+}
+main > .container_diary > .line > h2{
+    color:#145d76;
+    text-transform: capitalize;
+    text-shadow: 0 0 2px #0c7292;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+main > .containerFatherCard{
+    width:95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+main > .containerFatherCard > .card{
+    width:15%;
+    height: 10%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+main > .containerFatherCard > .card > h2{
+    width: 100%;
+    height: 2.2rem;
+    text-align: center;
+    background-color: #0c7292;
+    color: rgb(248, 248, 248);
+    font-weight: 300;
+}
+ .img{
+    width:100%;
+    height:3.5cm;
+
+
+}
+
+.containerFatherCard > .card{
+    width: 20%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 1rem 1rem;
+    border: 2px solid #154d64;
+    
+}
+footer{
+    background-color: #145d76;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer > section {
+    width: 20%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 2px solid #058fb5;
+    padding-top: 15px;
+    overflow: hidden;
+    
+}
+.networks{
+    height:1cm;
+
+}
+.networks:hover{
+    height:1.4cm;
+    transition: 0.2s;
+    
+}
